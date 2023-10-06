@@ -144,7 +144,7 @@ function Modal({ addTodo, onAddTodo, onAddTodoItems }) {
   const [description, setDescription] = useState("");
 
   function todoItem() {
-    if (title === "" && description === "") return;
+    if (title === "") return;
     const newItem = {
       title,
       description,
